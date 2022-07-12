@@ -1,0 +1,14 @@
+.fade-out{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+
+}
+.fade-in{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: 1s all ease;
+
+}
+
+

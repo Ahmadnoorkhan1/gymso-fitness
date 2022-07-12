@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+  
+        <a class="navbar-brand" href="#">Gymso Fitness</a>
+  
+        <button class="navbar-toggler" type="button" data-toggle="collapse"  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" (click)="showNav()">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse ms-5 ps-5" [ngClass]="navbarShow?'d-block ms-1 ps-1':'d-none'" >
+            <ul class="navbar-nav ml-lg-auto " [ngClass]="navbarShow?'m-0 p-0':'me-5 pe-5'">
+                <li class="nav-item">
+                    <a  class="nav-link smoothScroll">Home</a>
+                </li>
+  
+                <li class="nav-item">
+                    <a  class="nav-link smoothScroll">About Us</a>
+                </li>
+  
+                <li class="nav-item">
+                    <a  class="nav-link smoothScroll">Classes</a>
+                </li>
+  
+                <li class="nav-item">
+                    <a  class="nav-link smoothScroll">Schedules</a>
+                </li>
+  
+                <li class="nav-item">
+                    <a  class="nav-link smoothScroll">Contact</a>
+                </li>
+            </ul>
+  
+            <ul class="social-icon ml-lg-3">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+            </ul>
+        </div>
+  
+    </div>
+  </nav>
