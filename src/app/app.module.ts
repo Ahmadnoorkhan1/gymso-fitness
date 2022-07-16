@@ -12,6 +12,8 @@ import { InstructorCardsComponent } from './components/about/instructor-cards/in
 import { ClassComponent } from './components/class/class.component';
 import { ClassCardsComponent } from './components/class/class-cards/class-cards.component';
 import { ScheduleComponent } from './components/schedule/schedule.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { ScheduleComponent } from './components/schedule/schedule.component';
     InstructorCardsComponent,
     ClassComponent,
     ClassCardsComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
