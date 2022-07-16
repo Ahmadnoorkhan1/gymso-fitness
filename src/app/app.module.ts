@@ -11,6 +11,9 @@ import { AboutComponent } from './components/about/about.component';
 import { InstructorCardsComponent } from './components/about/instructor-cards/instructor-cards.component';
 import { ClassComponent } from './components/class/class.component';
 import { ClassCardsComponent } from './components/class/class-cards/class-cards.component';
+import { ScheduleComponent } from './components/schedule/schedule.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { ClassCardsComponent } from './components/class/class-cards/class-cards.
     AboutComponent,
     InstructorCardsComponent,
     ClassComponent,
-    ClassCardsComponent
+    ClassCardsComponent,
+    ScheduleComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

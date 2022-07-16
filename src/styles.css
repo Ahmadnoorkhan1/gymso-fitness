@@ -283,7 +283,7 @@ a:focus {
 }
 
 /*---------------------------------------
-   About
+   Class
 -----------------------------------------*/
 
 .class-section {
@@ -291,6 +291,42 @@ a:focus {
   padding: 5rem 0;
   min-height: 100vh;
   background-image: url('assets/images/class-bg.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*---------------------------------------
+  Contact          
+-----------------------------------------*/
+
+.contact-us {
+  background: var(--dark-color);
+  padding: 5rem 0;
+  min-height: 100vh;
+  background-image: url('assets/images/find-us.webp');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*---------------------------------------
+  Schedule         
+-----------------------------------------*/
+
+.schedule-section {
+  background: var(--dark-color);
+  padding: 5rem 0;
+  min-height: 100vh;
+  background-image: url('assets/images/schedule-bg.jpg');
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -698,6 +734,9 @@ button#submit-button:hover {
   .modal-content {
     padding: 2rem;
   }
+}
+.button-message{
+  border: 1px solid #6ba6daa2 !important
 }
 
 @media screen and (max-width: 767px) {

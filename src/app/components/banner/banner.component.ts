@@ -15,10 +15,9 @@ export class BannerComponent implements OnInit {
     setTimeout(() => {
       this.transitionText = true
     }, 800);
+    // console.log(window.screenY)
 
-    document.onscroll ? setTimeout(() => {
-      this.transitionText = !this.transitionText
-    }, 300) : ''
   }
+
 
 }
